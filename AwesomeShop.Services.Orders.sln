@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Services.Infrastructure", "AwesomeShop.Services.Infrastructure\AwesomeShop.Services.Infrastructure.csproj", "{77A9A32B-24E8-4433-BBCD-A457AA5E6FCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeShop.Services.Infrastructure", "AwesomeShop.Services.Infrastructure\AwesomeShop.Services.Infrastructure.csproj", "{77A9A32B-24E8-4433-BBCD-A457AA5E6FCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Services.Application", "AwesomeShop.Services.Application\AwesomeShop.Services.Application.csproj", "{A0854F42-573C-4C9E-99CC-9D73FF7F7EFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeShop.Services.Application", "AwesomeShop.Services.Application\AwesomeShop.Services.Application.csproj", "{A0854F42-573C-4C9E-99CC-9D73FF7F7EFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Services.Core", "AwesomeShop.Services.Core\AwesomeShop.Services.Core.csproj", "{B80364F9-EC5C-4CD9-A9C6-3972ABEBEE4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeShop.Services.Core", "AwesomeShop.Services.Core\AwesomeShop.Services.Core.csproj", "{B80364F9-EC5C-4CD9-A9C6-3972ABEBEE4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Services.API", "AwesomeShop.Services.API\AwesomeShop.Services.API.csproj", "{80A00AD7-08CF-4B5F-9B18-89EFD519495E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeShop.Services.API", "AwesomeShop.Services.API\AwesomeShop.Services.API.csproj", "{80A00AD7-08CF-4B5F-9B18-89EFD519495E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E49F391-8E85-4278-9B0A-2B33CBEC80A6}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

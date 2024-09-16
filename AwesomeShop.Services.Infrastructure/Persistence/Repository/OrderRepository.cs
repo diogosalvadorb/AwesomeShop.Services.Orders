@@ -24,7 +24,7 @@ namespace AwesomeShop.Services.Infrastructure.Persistence.Repository
             return await _collection.Find(x => x.Id == id).SingleOrDefaultAsync();
         }
 
-        public async Task Update(Order order)
+        public async Task UpdateAsync(Order order)
         {
             await _collection.ReplaceOneAsync(c => c.Id == order.Id, order);
         }

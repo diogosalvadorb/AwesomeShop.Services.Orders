@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="MessageBus\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\AwesomeShop.Services.Core\AwesomeShop.Services.Core.csproj" />
   </ItemGroup>
 

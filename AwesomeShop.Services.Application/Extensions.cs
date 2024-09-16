@@ -3,6 +3,7 @@ using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Text;
 using System;
+using AwesomeShop.Services.Application.Subscribers;
 
 namespace AwesomeShop.Services.Application
 {
@@ -11,6 +12,13 @@ namespace AwesomeShop.Services.Application
         public static IServiceCollection AddHandlers(this IServiceCollection services)
         {
             services.AddMediatR(typeof(AddOrder));
+
+            return services;
+        }
+
+        public static IServiceCollection AddSubscribers(this IServiceCollection services)
+        {
+            services.AddHostedService<PaymentAcceptedSubscriber>();
 
             return services;
         }

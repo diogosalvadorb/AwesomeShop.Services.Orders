@@ -8,6 +8,6 @@ namespace AwesomeShop.Services.Core.Repository
     {
         Task<Order> GetByIdAsync(Guid id);
         Task AddAsync(Order order);
-        Task Update(Order order);
+        Task UpdateAsync(Order order);
     }
 }

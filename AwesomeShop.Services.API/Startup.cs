@@ -22,11 +22,13 @@ namespace AwesomeShop.Services.API
         public void ConfigureServices(IServiceCollection services)
         {
             services
+                .AddRedisCache()
                 .AddMessageBus()
                 .AddMongo()
                 .AddRepositories()
                 .AddHandlers()
-                .AddSubscribers().AddConsulConfig(Configuration);
+                .AddSubscribers()
+                .AddConsulConfig(Configuration);
             services.AddHttpClient();
 
             services.AddControllers();
